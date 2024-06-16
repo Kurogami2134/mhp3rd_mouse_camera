@@ -2,7 +2,7 @@ import win32api
 from math import radians
 from json import load
 from struct import unpack, pack
-from filewrappers import PSPRAMFileDescriptor as PSPRam
+from ModIO import PspRamIO as PSPRam
 from time import sleep
 
 
